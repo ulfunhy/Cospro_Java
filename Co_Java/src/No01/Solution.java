@@ -1,18 +1,26 @@
 package No01;
-import java.util.*;
-public class Solution {
-	public int[] solution(String[] shirtSize) {
-		// Write code here.
-		int[] answer = {};
-		return answer;
+
+import java.util.Arrays;
+
+class Solution{
+	public int[] solution(String shirt_size[]) {
+		int[] size_sounter = new int [6];
+		for(int i=0; i<shirt_size.length; i++) {
+			if(shirt_size[i].equals("XS")) size_sounter[0]++;
+			else if(shirt_size[i].equals("S")) size_sounter[1]++;
+			else if(shirt_size[i].equals("M")) size_sounter[2]++;
+			else if(shirt_size[i].equals("L")) size_sounter[3]++;
+			else if(shirt_size[i].equals("XL")) size_sounter[4]++;
+			else if(shirt_size[i].equals("XXL")) size_sounter[5]++;
+		}
+		return size_sounter;
 	}
-	
-	// The following is main method to output testcase.
+
 	public static void main(String[] args) {
 		Solution sol = new Solution();
-		String[] shirtSize = {"XS","S", "M", "L", "XL", "S"};
+		String shirtSize [] = {"XS", "S", "L", "L","XL", "S"};
 		int[] ret = sol.solution(shirtSize);
-		//Press Run button to receive output.
-		System.out.println("Solution: return valeof the method is " + Arrays.toString(ret) + " .");
+		System.out.println("Solution: return value of the method is " + Arrays.toString(ret) + ".");
+
 	}
 }

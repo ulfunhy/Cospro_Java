@@ -1,5 +1,4 @@
 package No08;
-import java.util.*;
 
 class Solution {
 	boolean solution(String sentence) {
