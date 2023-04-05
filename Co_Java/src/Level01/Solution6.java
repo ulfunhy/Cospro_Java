@@ -1,8 +1,8 @@
-package No06;
+package Level01;
 
 import java.util.Arrays;
 
-class Solution {
+class Solution6 {
 	public int solution(int number) {
 		int count = 0;
 		for(int i = 1; i <= number; i++) {

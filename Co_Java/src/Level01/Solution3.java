@@ -1,6 +1,6 @@
-package No03;
+package Level01;
 
-class Solution {
+class Solution3 {
 	public int func_a(int month, int day) {
 		int monthList[] = {31,28,31,30,31,30,31,31,30,31,30,31};
 		int total =0;
@@ -19,7 +19,7 @@ class Solution {
 		return endTotal - startTotal;
 	}
 	public static void main(String[] args) {
-		Solution sol = new Solution();
+		Solution3 sol = new Solution3();
 		
 		int startMonth = 1;
 		int startDay = 2;

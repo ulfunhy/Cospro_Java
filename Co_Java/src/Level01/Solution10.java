@@ -1,6 +1,6 @@
-package No10;
+package Level01;
 
-class Solution {
+class Solution10 {
 	public int solution(int[] data) {
 		double total = 0;
 		int len = data.length;
@@ -15,7 +15,7 @@ class Solution {
 	}
 
 	public static void main(String[] args) {
-		Solution sol = new Solution();
+		Solution10 sol = new Solution10();
 		int[] data1 = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
 		int ret1 = sol.solution(data1);
 		

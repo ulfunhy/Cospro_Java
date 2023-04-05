@@ -1,6 +1,6 @@
-package No07;
+package Level01;
 
-class Solution {
+class Solution7 {
 	
 	public int solution(int[] scores) {
 		int count = 0;
@@ -12,7 +12,7 @@ class Solution {
 		return count;
 	}
 	public static void main(String[] args) {
-		Solution sol = new Solution();
+		Solution7 sol = new Solution7();
 		int[] scores = {650, 722, 914, 558, 714, 803, 650, 679, 669, 800};
 		int ret = sol.solution(scores);
 		System.out.println("Solution: return value of the method is " + ret + " .");

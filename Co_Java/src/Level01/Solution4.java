@@ -1,6 +1,6 @@
-package No04;
+package Level01;
 
-class Solution {
+class Solution4 {
 	int[] func_a(int[] arr) {
 		int[] counter = new int[1001];
 		for(int i = 0; i < arr.length; i++) 
@@ -35,7 +35,7 @@ class Solution {
 	}
 	
 	public static void main(String[] args) {
-		Solution sol = new Solution();
+		Solution4 sol = new Solution4();
 		int[] arr = {1,2,3,3,1,3,3,2,3,2};
 		int ret = sol.solution(arr);
 		

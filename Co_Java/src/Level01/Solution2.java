@@ -1,6 +1,6 @@
-package No02;
+package Level01;
 import java.util.*;
-class Solution{
+class Solution2{
 	public int[] solution (String girl[]) {
 		int answer[] = new int [6];
 		for(int i=0; i<girl.length; i++) {
@@ -15,7 +15,7 @@ class Solution{
 	}
 
 public static void main(String[] args) {
-		Solution sl = new Solution();
+		Solution2 sl = new Solution2();
 		String girl [] = {"블랙핑크", "뉴진스", "뉴진스", "뉴진스","레드벨벳", "엔믹스",  "르세라핌", "엔믹스", "레드벨벳"};
 		int[] ret = sl.solution(girl);
 		int max = ret[0];

@@ -1,8 +1,8 @@
-package No05;
+package Level01;
 
 import java.util.Arrays;
 
-class Solution {
+class Solution5 {
 
 	public int[] solution(int[] arr) {
 		int left = 0;
@@ -18,7 +18,7 @@ class Solution {
 	}
 	
 	public static void main(String[] args) {
-		Solution sol = new Solution();
+		Solution5 sol = new Solution5();
 		int[] arr = {1, 4, 2, 3};
 		int[] ret = sol.solution(arr);
 		

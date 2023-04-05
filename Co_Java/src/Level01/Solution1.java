@@ -1,8 +1,8 @@
-package No01;
+package Level01;
 
 import java.util.Arrays;
 
-class Solution{
+class Solution1{
 	public int[] solution(String shirt_size[]) {
 		int[] size_sounter = new int [6];
 		for(int i=0; i<shirt_size.length; i++) {
@@ -17,7 +17,7 @@ class Solution{
 	}
 
 	public static void main(String[] args) {
-		Solution sol = new Solution();
+		Solution1 sol = new Solution1();
 		String shirtSize [] = {"XS", "S", "L", "L","XL", "S"};
 		int[] ret = sol.solution(shirtSize);
 		System.out.println("Solution: return value of the method is " + Arrays.toString(ret) + ".");

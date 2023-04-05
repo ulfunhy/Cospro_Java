@@ -1,6 +1,6 @@
-package No09;
+package Level01;
 
-class Solution {
+class Solution9 {
 	public String solution(String charcators) {
 		String result = "";
 		result += charcators.charAt(0);
@@ -11,7 +11,7 @@ class Solution {
 	}
 
 	public static void main(String[] args) {
-		Solution sol = new Solution();
+		Solution9 sol = new Solution9();
 		String charcators = "senteeencccceee";
 		String ret = sol.solution(charcators);
 		System.out.println("Solution: return value of the method is " + ret + ".");
