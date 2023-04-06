@@ -18,6 +18,7 @@ class Solution1 {
 			total += Math.min(left_counter[i], right_counter[i]);
 		return total;
 	}
+	
 	public static void main(String[] args) {
 		Solution1 sol = new Solution1();
 		int[] leftGloves = {2, 1, 2, 2, 4};
