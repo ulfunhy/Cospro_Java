@@ -1,29 +1,23 @@
 package Level01;
 
-import java.util.Arrays;
-
 class Solution6 {
 	public int solution(int number) {
 		int count = 0;
 		for(int i = 1; i <= number; i++) {
 			int current = i;
-			int temp = ;
 			while(current != 0) {
-				if() {
+				if(current %10 == 3 || current % 10 == 6 || current %10 == 9) {
 					count++;
 					System.out.print("pair");
 				}
-				current++;
+				current = current / 10;
 			}
-			if(temp == count)
-				System.out.print(i);
-			System.out.print(" ");
 		}
 		System.out.println();
 		return count;
 	}
 	public static void main(String[] args) {
-		Solution sol = new Solution();
+		Solution6 sol = new Solution6();
 		int number = 40;
 		int ret = sol.solution(number);
 	
