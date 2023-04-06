@@ -35,7 +35,6 @@ class Solution2 {
 		String ret = sol.solution(arr);
 		
 		System.out.println("solution 메소드의 반환 값은 " + ret + " 입니다.");
-
 	}
 
 }
