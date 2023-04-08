@@ -1,5 +1,7 @@
 package Level01;
-import java.util.*;
+
+import java.util.Arrays;
+
 class Solution2{
 	public int[] solution (String girl[]) {
 		int answer[] = new int [6];
@@ -27,6 +29,7 @@ public static void main(String[] args) {
 		for(int i=0; i<ret.length; i++) {
 			if(max == ret[i]) System.out.println("인기그룹 : " + girl[max]); break;
 		}
+		
 		System.out.print("Solution: return value of the method is " + Arrays.toString(ret)+ ".");
 	}
 }
