@@ -20,7 +20,7 @@ class Solution1{
 		Solution1 sol = new Solution1();
 		String shirtSize [] = {"XS", "S", "L", "L","XL", "S"};
 		int[] ret = sol.solution(shirtSize);
+		
 		System.out.println("Solution: return value of the method is " + Arrays.toString(ret) + ".");
-
 	}
 }
