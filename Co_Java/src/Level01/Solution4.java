@@ -5,7 +5,7 @@ class Solution4 {
 		int[] counter = new int[1001];
 		for(int i = 0; i < arr.length; i++) 
 			counter[arr[i]] ++;
-			return counter;
+		return counter;
 	}
 	
 	int func_b(int[] arr) {
