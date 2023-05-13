@@ -15,7 +15,6 @@ class Solution3 {
 			// 최소값 구하기
 			if(min>scores[i])
 				min = scores[i];
-			
 			// 누적하기
 			sum = sum + scores[i];
 		}
